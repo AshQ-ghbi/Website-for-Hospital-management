@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Hospital Queue & Resource Optimization System</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#f4f8fb;
+      color:#333;
+      line-height:1.6;
+    }
+
+    .container{
+      width:90%;
+      max-width:1200px;
+      margin:auto;
+    }
+
+    header{
+      background:linear-gradient(to right,#0f4c81,#2b7fc3);
+      color:white;
+      padding:100px 20px;
+      text-align:center;
+    }
+
+    header h1{
+      font-size:42px;
+      margin-bottom:20px;
+    }
+
+    header p{
+      font-size:18px;
+      margin-bottom:30px;
+    }
+
+    .btn{
+      display:inline-block;
+      background:white;
+      color:#0f4c81;
+      padding:12px 25px;
+      text-decoration:none;
+      border-radius:5px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:#e5eef7;
+    }
+
+    section{
+      padding:70px 20px;
+      text-align:center;
+    }
+
+    h2{
+      color:#0f4c81;
+      margin-bottom:25px;
+      font-size:32px;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+      margin-top:40px;
+    }
+
+    .card{
+      background:white;
+      padding:30px;
+      border-radius:12px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.1);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+    }
+
+    .card h3{
+      color:#2b7fc3;
+      margin-bottom:15px;
+    }
+
+    .benefits-list{
+      list-style:none;
+      margin-top:30px;
+    }
+
+    .benefits-list li{
+      background:white;
+      margin:12px auto;
+      padding:15px;
+      width:60%;
+      border-radius:8px;
+      box-shadow:0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    footer{
+      background:#0f4c81;
+      color:white;
+      text-align:center;
+      padding:20px;
+    }
+
+    @media(max-width:768px){
+
+      header h1{
+        font-size:30px;
+      }
+
+      .benefits-list li{
+        width:100%;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO SECTION -->
+  <header>
+    <div class="container">
+      <h1>Smart Hospital Queue & Resource Optimization System</h1>
+      <p>
+        Improving healthcare efficiency with intelligent queue management,
+        scheduling, and resource optimization.
+      </p>
+
+      <a href="#features" class="btn">Explore Features</a>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section>
+    <div class="container">
+      <h2>About the Project</h2>
+
+      <p>
+        This system helps hospitals reduce patient waiting time,
+        optimize doctor schedules, improve resource allocation,
+        and provide real-time monitoring using smart digital technologies.
+      </p>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features">
+    <div class="container">
+
+      <h2>Key Features</h2>
+
+      <div class="cards">
+
+        <div class="card">
+          <h3>Digital Queue Management</h3>
+          <p>
+            Smart token generation and real-time patient queue tracking.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Doctor Scheduling</h3>
+          <p>
+            Intelligent appointment handling and workload balancing.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Resource Optimization</h3>
+          <p>
+            Efficient allocation of beds, staff, and medical equipment.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Real-Time Analytics</h3>
+          <p>
+            Live dashboards and analytics for hospital performance monitoring.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section>
+    <div class="container">
+
+      <h2>Benefits</h2>
+
+      <ul class="benefits-list">
+        <li>Reduced Waiting Time</li>
+        <li>Improved Patient Experience</li>
+        <li>Better Resource Utilization</li>
+        <li>Efficient Hospital Workflow</li>
+        <li>Real-Time Notifications & Monitoring</li>
+      </ul>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>
+      © 2026 Smart Hospital Queue & Resource Optimization System
+    </p>
+  </footer>
+
+</body>
+</html>
